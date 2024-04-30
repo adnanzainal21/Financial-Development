@@ -1,0 +1,152 @@
+---
+title: "Financial Development, Knowledge Capital and Economic Growth"
+subtitle: "Inquiring into the Foundations of Human Prosperity"
+author: "Tedy Herlambang"
+institute: "FEB"
+date: "(updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["xaringan-themer.css", "extracss.css"]
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+#output-dir: docs
+---
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = "#191970"
+)
+```
+
+class: title-slide, center, middle
+background-image: url("atol.jpg")
+
+### Financial Development, Knowledge Capital and Economic Growth
+
+#### An Inquiry into the Foundations of Human Prosperity
+
+#### FEB 2024
+
+---
+## Old Centuries Thought
+
+- Economic growth is important and necessary as part of economic development.
+- What are the **driving forces** behind it?
+- Financial Development 
+- Human capital 
+- Institution (Acemoglu, Williamson)
+
+---
+## Theoretical Models
+
+- The links between financial development, human capital, institution and economic growth are open to a number of questions 
+- Augmented neoclassical growth theory, endogenous growth theory, and technological diffusion theory. 
+
+### Solow Model
+
+- The Solow model: the output of the macroeconomy is a direct function of the capital and labor in the economy (but not human capital) + an element of technological change to trace the movement of the economy over time. 
+- The sources of technological change were not integral to the analysis.
+---
+### Augmented Neoclassical Growth
+
+- Mankiw, Romer and Weil (1992) extended the model to incorporate human capital, stressing the role of education as a factor of production. 
+- Education can be accumulated, increasing the human capital of the labor force and thus the steady-state level of aggregate income. 
+
+### Endogenous Growth
+
+- Schumpeter ([1912] 2006): growth is ultimately driven by innovation. 
+- Lucas (1988), Romer (1990), and Aghion and Howitt (1998) stressed the role of human capital in increasing the innovative capacity of the economy through the development of new ideas and technologies. 
+- Technological change is determined by forces within an economy: a given level of education can produce a continuing stream of new ideas, making it possible for education to affect long-run growth rates even when no additional education is added to the economy. 
+- Nelson and Phelps (1966), Welch (1970), and Benhabib and Spiegel (2005), stressed the ability of education to facilitate the transmission of knowledge needed to implement new technologies.
+
+---
+## Why Financial Development
+
+- If a proﬁtable investment available, economic agents would take advantage of
+this opportunity by arbitraging between different sources of funds.
+- If any additional year of schooling has a marginal beneﬁt exceeding its marginal cost (including interest repayment), it should be worth undertaking.
+- Financial markets are very likely to work imperfectly (or even be absent), because of the impossibility of providing collateral (esp.families in the lower tail of income distribution).
+- Thus imperfect ﬁnancial markets could be responsible for persistent inequality, both in education and in income.
+
+---
+## Financial development
+
+- Improvements in functions provided by the financial systems such as: (i) pooling of savings; (ii) allocating capital to productive investments; (iii) monitoring those investments; (iv) risk diversification; and (v) exchange of goods and services (Levine, 2005). 
+- Each of these financial functions can influence saving and investment decisions and the efficiency with which funds are allocated. 
+- As a result, finance affects the accumulation of physical and **human capital** and total factor productivity – the three factors that determine economic growth. 
+- Indices that summarize how developed financial institutions and financial markets are in terms of their depth, access, and efficiency (IMF).
+
+---
+## Financial Market: Resource Allocator
+
+- Financial markets play a major role in determining where and how society’s resources are put to work—who gets the money to produce what and where.
+- Two systems: market-centered financial systems and institution-centered financial systems (Peter Dorman, 2014).
+
+### Market-Centered Systems
+
+- Based on the principle that control of the firm should rest in the hands of its shareholders. 
+- This means that the interests of those who purchase stock, higher profits and share prices, should determine the firm’s business decisions.
+
+### Institution-Centered Systems
+
+- Institution-centered systems generally adhere to the stakeholder approach.
+- Rely primarily on financial institutions such as banks, to play the dominant role in the ownership and control of businesses.
+
+---
+## Institution
+
+
+
+---
+## The Connections
+
+- Financial development --> education --> knowledge capital --> human capital --> economic growth
+- Institution -->
+
+- **IS THAT SO?**
+
+---
+## Two Tracks: Theory-Driven vs Data-Driven
+
+- "Humans cannot not hypothesize”
+- Data are neither theory nor can they speak for themselves. 
+- Interpretation always requires the data to be framed within specific purpose(s) and contextualized in particular domain(s) for researchers to give meaningful insights.
+
+1. Specific theoretical models drive a particular empirical analysis: the theoretical models identify specific features and mechanisms of economies and trace their implications for growth over time.
+
+2. The empirical work is more loosely connected to any specific model and driven more by data and statistical forces: empirical exercises designed to extract regularities in growth based on the observed differences in outcomes (insights are “born from the data").
+---
+## I plan to use both tracks
+
+- Cases: across-countries (ASEAN or may be extended to ASIA countries)
+- Tools:
+  + Econometrics: parametric, nonparametric 
+  + Explainable Artificial Intelligence (XAI) --> white box Machine Learning
+- Data: global panel data 
+
+---
+## Data
+
+- [World Bank](https://www.worldbank.org/en/home): **main sources**
+- [IMF](https://www.imf.org/en/Home)
+- [UNCTAD](https://unctad.org/)
+- [Penn World Table](https://www.rug.nl/ggdc/productivity/pwt/?lang=en)
+- [PISA](https://www.oecd.org/pisa/)
+- [WIPO statistic](https://www.wipo.int/ipstats/en/)
+- [World Values Survey](https://www.worldvaluessurvey.org/wvs.jsp)
+- [World Inequality Report](https://www.worldvaluessurvey.org/wvs.jsp)
+- [UQICD](https://uqicd.economics.uq.edu.au/)
+- [Global Entrepreneurship and Development Institute](http://thegedi.org/global-entrepreneurship-and-development-index/)
+- R and Python
+
+---
+
+class: center, middle
+
+# Thanks!
+
